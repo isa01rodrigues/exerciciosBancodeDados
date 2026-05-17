@@ -47,6 +47,9 @@ WHERE preco > 500;
 SELECT * FROM entrada
 WHERE preco < 500;
 
+UPDATE produto
+SET cor = "Branco com detalhes e Azul"
+WHERE idProduto = 2;
 
-
+SELECT * FROM produto;
 
