@@ -26,4 +26,6 @@ WHERE salario > 2000;
 SELECT * FROM funcionario
 WHERE salario < 2000;
 
-
+UPDATE funcionario
+SET salario = 2200.00
+WHERE idFuncionario = 2;
